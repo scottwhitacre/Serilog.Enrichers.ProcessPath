@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.ProcessPath", "Serilog.Enrichers.ProcessPath\Serilog.Enrichers.ProcessPath.csproj", "{4F42CE44-DA16-46AA-AD2A-DFB61FABB87D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Enrichers.ProcessPath", "Serilog.Enrichers.ProcessPath\Serilog.Enrichers.ProcessPath.csproj", "{4F42CE44-DA16-46AA-AD2A-DFB61FABB87D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.ProcessPath.Tests", "Serilog.Enrichers.ProcessPath.Tests\Serilog.Enrichers.ProcessPath.Tests.csproj", "{BF144E70-0644-4233-9046-E417F9B79ACA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4F42CE44-DA16-46AA-AD2A-DFB61FABB87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F42CE44-DA16-46AA-AD2A-DFB61FABB87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F42CE44-DA16-46AA-AD2A-DFB61FABB87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF144E70-0644-4233-9046-E417F9B79ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF144E70-0644-4233-9046-E417F9B79ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF144E70-0644-4233-9046-E417F9B79ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF144E70-0644-4233-9046-E417F9B79ACA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
