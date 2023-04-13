@@ -1,9 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>Serilog.Enrichers.ProcessPath</PackageId>
+    <Authors>Scott Whitacre</Authors>
+    <PackageTags>Serilog Enrichers ProcessPath</PackageTags>
+    <PackageProjectUrl>https://github.com/scottwhitacre/Serilog.Enrichers.ProcessPath</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/scottwhitacre/Serilog.Enrichers.ProcessPath</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
